@@ -13,7 +13,16 @@ if(!isset($_SESSION['mise'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Lotto</title>
+    <meta name="title" content="SimuLotto">
+    <meta name="description" content="Site permettant de simuler un jeu de lotterie sans risquer d'y perdre toutes ses économies. Le site permet aussi d'observer l'évolution des dépenses et des gains au fil des parties.">
+    <title>SimuLotto</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/icon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/icons/icon-48x48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="images/icons/icon-64x64.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-192x192.png">
+    <meta name="apple-mobile-web-app-title" content="SimuLotto" />
+    <link rel="manifest" href="/manifest.webmanifest">
 </head>
 <body>
     <div class="grille">
