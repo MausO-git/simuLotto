@@ -163,3 +163,25 @@ body{
     border: gold 2px solid;
     color: gold;
 }
+
+@media all and (max-width: 500px){
+    .grille{
+        flex-direction: column;
+    }
+
+    .star{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media all and (max-height: 660px){
+    .grille{
+        margin: 15px auto 20px;
+    }
+    .tirage{
+        margin: 20px auto 0;
+    }
+    .money{
+        margin: 15px auto;
+    }
+}
